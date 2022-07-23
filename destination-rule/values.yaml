@@ -1,0 +1,13 @@
+# The name of your service
+service: <SERVICE_NAME>
+
+# The overall system your service is a part of
+system: <SYSTEM_NAME>
+
+# The major version number for your service
+version: 1
+
+# Circuit breaker settings (use Istio syntax)
+# Optional
+# outlierDetection: 
+#   consecutive5xxErrors: 5
