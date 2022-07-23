@@ -1,0 +1,9 @@
+# Passthrough TLS services originate their TLS from service code. The Istio proxy
+# does not modify the request.
+# 
+# You call them using https:// in your code and the Istio proxy passes it through
+# untouched.
+# passthroughTls:
+
+#   google:
+#     externalHost: "*.google.com"
