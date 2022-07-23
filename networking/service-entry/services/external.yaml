@@ -1,0 +1,3 @@
+passthroughHttp:
+  elasticsearch:
+    externalHost: ""
