@@ -1,0 +1,24 @@
+# The name of your service
+service: <SERVICE_NAME>
+
+# The overall system your service is a part of
+system: <SYSTEM_NAME>
+
+# The major version number for your service
+version: 1
+
+# Configure the Istio ingress gateway to route outside traffic for the provided
+# host name to this service on the ports and protocols defined in the 'ports' section 
+# above. 
+# ingressGateway:
+#   name: default/my-gateway
+
+# Client retry settings (use Istio syntax)
+# Optional
+# retries:
+#   attempts: 3
+#   perTryTimeout: 2s
+
+# The overall timeout for requests to this service
+# Optional
+# overallTimeout: 10s
