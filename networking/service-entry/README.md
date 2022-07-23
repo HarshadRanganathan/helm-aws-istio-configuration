@@ -1,8 +1,8 @@
-# Service Entry
+# Service Entry
 
 ServiceEntry enables adding additional entries into Istio’s internal service registry, so that auto-discovered services in the mesh can access/route to these manually specified services.
 
-## Usage
+## Usage
 
 Command to install ES Service Entries:
 
