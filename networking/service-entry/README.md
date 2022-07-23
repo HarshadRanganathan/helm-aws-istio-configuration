@@ -7,5 +7,5 @@ ServiceEntry enables adding additional entries into Istio’s internal service r
 Command to install ES Service Entries:
 
 ```
-helm upgrade -i service-entries . -n istio-system --values=apps/external.yaml
+helm upgrade -i service-entries . -n istio-system --values=services/external.yaml
 ```
